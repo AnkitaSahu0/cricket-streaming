@@ -412,15 +412,16 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`w-10 h-10 rounded-lg border flex items-center text-center justify-center ${burgerCls}`}
+            className={`w-10 h-10  rounded-lg border flex items-center align-middle justify-center p-0 m-0 transition-transform duration-200 hover:scale-105 ${burgerCls}`}
           >
-            {isOpen ? <X size={20}  /> : <Menu size={20} />}
+            {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>
       </div>
 
       {/* OVERLAY */}
       {isOpen && (
+
         <div
           className="fixed inset-0 bg-black/50 z-40"
           onClick={() => setIsOpen(false)}
@@ -440,8 +441,8 @@ export default function Navbar() {
             Cric<span className="text-green-500">Stream</span>
           </span>
 
-          <button onClick={() => setIsOpen(false)} className={`w-10 h-10 border rounded-lg ${burgerCls}`}>
-            <X size={20} />
+          <button onClick={() => setIsOpen(false)} className={`w-10 h-10 border flex items-center justify-center rounded-lg ${burgerCls}`}>
+            <X className="w-5 h-5"  />
           </button>
         </div>
 
