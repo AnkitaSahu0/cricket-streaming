@@ -27,7 +27,7 @@ const matches = [
     id: 4,
     title: "RCB vs KKR",
     viewers: "1.8M watching",
-    thumbnail: "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    thumbnail: "https://media.istockphoto.com/id/1176722220/photo/empty-green-grass-field-and-illuminated-outdoor-stadium-with-fans-front-field-view.jpg?s=1024x1024&w=is&k=20&c=Lrk74SasHVnPWh8X4gKWshlAKhoBVczhBDDUZRL18K8=",
   },
 ];
 
